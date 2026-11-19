@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: nitin8604/go-devops-app
+  tag: "latest"
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+ingress:
+  enabled: true
+  host: goapp.local
