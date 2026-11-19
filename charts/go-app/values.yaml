@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: nitin8604/go-devops-app
-  tag: "latest"
+  tag: "67b486dd9cc28153f53f3f67bfe42469af14a2f5"
   pullPolicy: Always
 
 service:
